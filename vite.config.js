@@ -8,7 +8,6 @@ export default defineConfig(({ mode }) => {
     define: {
       'process.env': env
     },
-    base: "/admin-panel/",
     plugins: [react()],
   }
 })
